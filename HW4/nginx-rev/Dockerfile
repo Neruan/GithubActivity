@@ -7,7 +7,7 @@
 FROM ubuntu
 
 # File Author / Maintainer
-MAINTAINER Prem Devanbu & Vincent Hellendoorn
+MAINTAINER Neustein Ruan & Joseph Shaw
 
 # Install Nginx
 
