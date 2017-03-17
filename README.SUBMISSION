@@ -1,0 +1,15 @@
+1.) swap1.sh
+You can execute swap1.sh on docker with the command:
+    docker exec ecs189_proxy_1 /bin/bash /bin/swap1.sh
+which will swap web2 with web1.
+
+2.) hotswap.sh
+You can execute hotswap.sh on your local machine with the command:
+    ./hotswap.sh 'image name'
+which will swap with 'image name' and clean up the left over container.
+
+3.) Commands used:
+docker run
+docker exec
+docker rm
+docker ps
