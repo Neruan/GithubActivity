@@ -1,3 +1,7 @@
+Neustein Ruan 913346482
+Joseph Shaw 913326761
+
+
 1.) swap1.sh
 You can execute swap1.sh on docker with the command:
     docker exec ecs189_proxy_1 /bin/bash /bin/swap1.sh
