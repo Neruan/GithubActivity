@@ -34,7 +34,7 @@ public class GithubQuerier {
                     if(!commit.isNull(0)) {
                         JSONObject commitFields = commit.getJSONObject(0);
                         commitHash = commitFields.getString("sha");
-                        commitHash = commitHash.substring(0, Math.min(commitHash.length(), 6));
+                        commitHash = commitHash.substring(0, Math.min(commitHash.length(), 8));
                         commitMessage = commitFields.getString("message");
                     }
                     else{
