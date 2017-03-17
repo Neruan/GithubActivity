@@ -1,0 +1,5 @@
+1.) swap1.sh
+You can execute swap1.sh on docker with the command:
+    docker exec ecs189_proxy_1 /bin/bash /bin/swap1.sh
+which will swap web2 with web1.
+

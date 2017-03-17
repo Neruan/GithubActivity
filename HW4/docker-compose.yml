@@ -3,7 +3,7 @@ services:
   web1:
     ports:
      - "8080"
-    image: activity
+    image: activity-old
 
   proxy:
     ports:
